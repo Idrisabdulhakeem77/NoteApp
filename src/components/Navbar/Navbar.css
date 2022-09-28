@@ -1,0 +1,35 @@
+nav {
+     display: flex;
+     justify-content: space-between ;
+     align-items: center;
+}
+
+.nav-header h1 {
+     font-weight: 400;
+     padding-right: 1rem;
+     
+}
+.nav-search {
+     flex: 2;
+     border-radius: 50%;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: transparent;
+    border: none;
+    border: solid 1px black;
+    font-size: 20px;
+
+}
+
+.links {
+     display: flex;
+     
+}
+
+.links li  a {
+    padding: 0.5rem 1rem;
+}
