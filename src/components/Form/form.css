@@ -5,21 +5,34 @@ h1 {
 }
 
 .form {
+      width: 50vw;
+      max-width: 1170px;
+      margin: 4rem auto;
+      background: #fff;
+      padding: 2rem;
+    }
+  
+
+/* .form {
      width: 700px;
      height: 500px;
      
      margin: 0 auto ;
-}
-input[type="text"]{
+} */
+input[type="text"],
+ textarea{
       width: 100%;
       padding: 0.5rem;
+      font-size: 1rem;
 }
-
-textarea{
-      width: 100%;
-}
-
 
 .form-control {
        margin-bottom: 1rem;
+}
+
+.form-control label {
+       display: block;
+       text-transform: capitalize;
+       margin-bottom: 0.5rem;
+       font-weight: 500;
 }

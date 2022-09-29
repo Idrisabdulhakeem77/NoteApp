@@ -29,7 +29,7 @@ function Form() {
 
          <div className='form-control'>
            <label>Enter Note Details</label>
-         <textarea name="details" value={note.details}  onChange={handleChange}></textarea>
+         <textarea  name="details" value={note.details}  onChange={handleChange} rows="4" cols="50"></textarea>
             
          </div>
          <button onClick={handleSubmit}> Add Note</button>
