@@ -12,7 +12,7 @@ function Navbar() {
             <h1><NavLink to='/'>NOTE APP</NavLink></h1>
             </div>
             <div className='nav-search'>
-            <input type="text" placeholder='Search'  onChange={(e) => setSearch(e.target.value)}/>
+            <input type="text" placeholder='Search' value={search}  onChange={(e) => setSearch(e.target.value)}/>
             </div>
                 
             <ul className='links'>
