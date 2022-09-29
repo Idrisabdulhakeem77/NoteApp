@@ -1,7 +1,7 @@
-import React , { useEffect , useState} from 'react'
+import React , {  useState} from 'react'
 import "./navbar.css"
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+
 
 function Navbar() {
     const [search , setSearch] = useState("")
