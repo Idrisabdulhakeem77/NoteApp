@@ -1,3 +1,14 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+     scroll-behavior: smooth;
+}
+
+
 ul {
      list-style-type: none;
 }
@@ -6,10 +17,9 @@ a {
      text-decoration: none;
 }
 
-body , html  {
+ body , html  {
      margin:  0;
      padding: 0;
-     overflow: hidden;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-}
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+ }

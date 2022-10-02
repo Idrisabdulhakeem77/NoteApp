@@ -1,9 +1,9 @@
-{ 
-     "notes" :[
-          {
-             "id" : 1,
-             "title" : "Playing Games",
-             "Details" : "Playing Games ALl day"
-          }
-     ]
+{
+  "notes": [
+    {
+      "title": "1werty",
+      "details": "2we3r4t5y6",
+      "id": 6
+    }
+  ]
 }

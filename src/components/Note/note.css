@@ -1,0 +1,15 @@
+.note {
+    width: 300px;
+    height: 220px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+
+    /* background: #fff;
+  margin-bottom: 2rem;
+  box-shadow:  2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s linear;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: 0.25rem; */
+}
