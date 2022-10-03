@@ -11,9 +11,9 @@ function Navbar() {
             <div className='nav-header'>
             <h1><NavLink to='/'>NOTE APP</NavLink></h1>
             </div>
-            <div className='nav-search'>
+            {/* <div className='nav-search'>
             <input type="text" placeholder='Search' value={search}  onChange={(e) => setSearch(e.target.value)}/>
-            </div>
+            </div> */}
                 
             <ul className='links'>
                  {/* <li> <a href="/">Notes</a></li>

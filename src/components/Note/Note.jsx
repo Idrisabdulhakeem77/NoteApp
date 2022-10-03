@@ -3,29 +3,26 @@ import {FaTrashAlt , FaEdit} from 'react-icons/fa'
 import './note.css'
 import axios from 'axios'
 
-function Note({ id  , title , details , deleteNote ,editItem}) {
+function Note({ id  , title , details , deleteNote }) {
  
 
   return ( 
     <>
     <div className='note'>
-      <div className='note-info'>
-      <div className='note-title'>
-      <h1> { title}</h1>
-      </div>
-     
-        <div className='btn'>
-            <button onClick={() => editItem(id)}>
-               <FaEdit/>
-            </button>
-            <button onClick={ () => deleteNote(id)}>
-               <FaTrashAlt/>
-            </button>
+       <div className='note-header'>
+       <h1>{title}</h1>
+        <div > 
+           <button className='btn' onClick={() => deleteNote(id)}>
+              <FaTrashAlt/>
+           </button>
         </div>
-      </div>
-      <p> { details}</p>
-
+       </div>
+        <div className='note-footer'>
+        <p>{details}</p>
         </div>
+        
+      </div>
+    
         </>
   )
 }

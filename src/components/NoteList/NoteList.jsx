@@ -1,12 +1,10 @@
 import axios from 'axios'
 import React , {useState , useEffect }from 'react'
 import './notelist.css'
-import { useNavigate } from 'react-router-dom'
 import Note from '../Note/Note'
 
 function NoteList() {
   const [notes , setNotes] = useState([])
-  const navigate = useNavigate()
 
   const fetchNotes = async() => {
     const notes = await axios.get('http://localhost:8000/notes')

@@ -1,8 +1,14 @@
 .note-container {
-    margin-top: 2rem;
+     width: 90vw;
+     max-width: 1128px;
+
+     margin-top: 2rem;
      display: grid;
-     grid-template-columns: repeat(4 , 1fr);
-     row-gap: 10px;
+     grid-template-columns: repeat(3 , 1fr);
+     padding: 1rem 2rem ;
+     margin: 0 auto;
+     gap: 2rem;
+     object-fit: contain;
 }
 
 .section {
@@ -20,6 +26,9 @@
 
 @media screen and (max-width : 760px)  {
     .note-container {
-         grid-template-columns: 1fr;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
     }
 }

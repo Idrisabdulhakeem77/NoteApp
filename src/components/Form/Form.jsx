@@ -48,7 +48,7 @@ function Form() {
          <textarea  name="details" value={note.details}  onChange={handleChange} rows="4" cols="50"></textarea>
             
          </div>
-         <button> Add Note</button>
+         <button className='add-btn'> Add Note</button>
         </form>
          
 </div>
